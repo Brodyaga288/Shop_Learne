@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shop_Learne.Domain.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,6 @@ namespace Shop_Learne.Domain.Models
         public string Description { get; set; }
         public int Price { get; set; }
         public TypeProduct Type { get; set; }
+        public CategoryProducts CategoryId { get; set; }
     }
 }

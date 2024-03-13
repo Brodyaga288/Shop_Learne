@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Shop_Learne.Domain.Models
 {
-    internal class CategoryProducts
+    public class CategoryProducts
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
