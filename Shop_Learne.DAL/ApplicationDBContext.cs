@@ -15,5 +15,6 @@ namespace Shop_Learne.DAL
         }
 
         public DbSet<Products> product { get; set;}
+        public DbSet<CategoryProducts> category { get; set;}
     }
 }
